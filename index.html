@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="/css/icon-font.css.css" /> -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01 </span>About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02 </span>Contact</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>03 </span>Tours</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04 </span>Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05 </span>Book</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <picture class="header__logo">
+          <source
+            srcset="
+              /images/travel-logo-small-1x.png 1x,
+              /images/travel-logo-small-2x.png 2x
+            "
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcset="
+              /images/travel-logo-1x.png 1x,
+              /images/travel-logo-2x.png 2x
+            "
+            alt="full logo"
+          />
+        </picture>
+        <!-- <img src="/images/travel-logo-1x.png" alt="logo" class="header__logo" /> -->
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Outdoors</span>
+          <span class="heading-primary--sub">Travelling Life</span>
+        </h1>
+        <a href="#section-tour" class="btn btn--white btn--animated"
+          >Discover</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Exciting tours for adventure
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">What we care</h3>
+            <p class="paragraph">
+              Our membership encourages you to bring you a complete new
+              experience. Time to travel with us.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">Explore</h3>
+            <p class="paragraph">
+              With stunning beaches, a rich culture, ancient heritage buildings
+              and majestic temples.
+            </p>
+            <a href="#" class="btn-text">Know More &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="/images/nat-1-small.jpg 300w, /images/nat-1.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="photo 1"
+                class="composition__photo composition__photo--p1"
+                src="images/nat-1.jpg"
+              />
+
+              <img
+                srcset="/images/nat-2-small.jpg 300w, /images/nat-2.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="photo 2"
+                class="composition__photo composition__photo--p2"
+                src="images/nat-2.jpg"
+              />
+
+              <img
+                srcset="/images/nat-3-small.jpg 300w, /images/nat-3.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="photo 3"
+                class="composition__photo composition__photo--p3"
+                src="images/nat-3.jpg"
+              />
+
+              <!-- <img
+                src="images/nat-1.jpg"
+                alt=""
+                class="composition__photo composition__photo--p1"
+              />
+              <img
+                src="images/nat-2.jpg"
+                alt=""
+                class="composition__photo composition__photo--p2"
+              />
+              <img
+                src="images/nat-3.jpg"
+                alt=""
+                class="composition__photo composition__photo--p3"
+              /> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-world"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Explore the world
+              </h3>
+              <p class="feature-box__text">
+                A whole new year to experiment with new travel plans and you
+                still cannot think of more than! Well, let us find a place as
+                stunning as you and you should definitely explore.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-compass"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Ride with Locals
+              </h3>
+              <p class="feature-box__text">
+                Ride with Locals that will take you to the middle of nowhere on
+                trails you wouldn’t access any other way, meaning you’ll see
+                volcanoes, craters, and mountains.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-map"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Arctic Adventures
+              </h3>
+              <p class="feature-box__text">
+                These offers a huge range of one-day, as well as helping you out
+                with self-drive tour arrangements. Its one-day tour options
+                include all the main Icelandic sightseeing activities.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-heart"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Why us
+              </h3>
+              <p class="feature-box__text">
+                Since we are keen to make 2019 a year of interesting travel
+                experiences, there is no skipping. This new year, cast away all
+                your doubts and connect with us. Will make you forget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tour" id="section-tour">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Most Popular Tours
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >The Explorer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>3 days tour</li>
+                    <li>Hotel</li>
+                    <li>Nightlife</li>
+                    <li>Guids</li>
+                    <li>trek</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$299</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >The Hiker</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>5 days tour</li>
+                    <li>Hotel</li>
+                    <li>Nightlife</li>
+                    <li>Guids</li>
+                    <li>Eating out</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$499</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >The Adventure</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>7 days tour</li>
+                    <li>Hotel</li>
+                    <li>Nightlife</li>
+                    <li>Guids</li>
+                    <li>easy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$299</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="" class="btn btn--green">Discover all</a>
+        </div>
+      </section>
+
+      <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="images/Stunning Mountains.mp4" type="video/mp4" />
+            <source src="images/Stunning Mountains.webm" type="video/webm" />
+            Your Browser is not supported!
+          </video>
+        </div>
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            We make people happy
+          </h2>
+        </div>
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="/images/eiffel-tower-4416700_1920.jpg"
+                alt="on tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">
+                Chris
+              </figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I have a best week
+              </h3>
+              <p>
+                Look further than Himachal Pradesh when you make your travel
+                plans for the new year. While Himachal is a great love and will
+                stay so, its sister state Uttarakhand is less commercialised and
+                thus untouched in comparison.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="/images/eiffel-tower-4416700_1920.jpg"
+                alt="on tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">
+                Kelly
+              </figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                JUST Amazing!
+              </h3>
+              <p>
+                If you are over your dream trip to Europe, and are looking for a
+                very different experience, this is the one for you. Serengeti is
+                a region in norther Tanzania, famous all over the world for its
+                wild experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="u-center-text u-margin-top-huge">
+          <a href="" class="btn-text">Discover all &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">
+                    Book Now
+                  </h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full Name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email Address"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Full Name</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"> </span>
+                      Small Tour</label
+                    >
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"> </span>
+                      Large Tour</label
+                    >
+                  </div>
+                </div>
+                <div class="form__group">
+                  <button class="btn btn--green">Next &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            srcset="
+              /images/travel-logo-small-1x.png 1x,
+              /images/travel-logo-small-2x.png 2x
+            "
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcset="
+              /images/travel-logo-1x.png 1x,
+              /images/travel-logo-2x.png 2x
+            "
+            alt="full logo"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact</a>
+              </li>
+
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy</a>
+              </li>
+
+              <li class="footer__item">
+                <a href="#" class="footer__link">About</a>
+              </li>
+
+              <li class="footer__item">
+                <a href="#" class="footer__link">Payment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by
+            <a href="http://kswebapp.com" class="footer__link">Arabinda</a> For
+            Online
+            <a href="http://kswebapp.com" class="footer__link"
+              >Advance Travel</a
+            >
+            . Copyright &copy; by kswebapp.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="/images/popup-box-1.jpg" alt="Tour" class="popup__img" />
+          <img src="/images/popup-box-2.jpg" alt="Tour" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tour" class="popup__close">&times;</a>
+          <h2 class="heading-secondary .u-margin-bottom-small">
+            Start Booking
+          </h2>
+          <h3 class="heading-tertiary  .u-margin-bottom-small">
+            Important Lorem ipsum dolor sit amet.
+          </h3>
+          <p class="popup__text">
+            Never miss on happening places and travel trends. Get your daily
+            dose of travel inspiration on The Hike.
+          </p>
+          <a href="" class="btn btn--green">Book</a>
+        </div>
+      </div>
+    </div>
+    <!-- <section class="grid-test">
+      <div class="row">
+        <div class="col-1-of-2">
+          Col 1 of 2
+        </div>
+        <div class="col-1-of-2">
+          Col 1 of 2
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-3">
+          Col 1 of 3
+        </div>
+        <div class="col-1-of-3">
+          Col 1 of 3
+        </div>
+        <div class="col-1-of-3">
+          Col 1 of 3
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-3">
+          Col 1 of 3
+        </div>
+        <div class="col-2-of-3">
+          Col 2 of 3
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-2-of-4">
+          Col 2 of 4
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-3-of-4">
+          Col 3 of 4
+        </div>
+      </div>
+    </section> -->
+  </body>
+</html>
